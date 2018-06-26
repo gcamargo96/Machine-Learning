@@ -1,0 +1,21 @@
+funções úteis do R:
+
+sample(1:n, k) -> retornar uma lista com k ids aleatórios entre 1 e n
+
+rep(val, times) -> replica val times vezes
+
+apply(matrix, 1, function(row)) { } -> aplica uma função em cada linha ou coluna da matrix (o segundo parâmetro define se é nas linhas ou colunas)
+
+which(condição) -> retorna os ids que obedecem à condição
+
+which.max(vetor) -> retorna o id do maior elemento
+
+sum(vetor) -> soma de todos os valores de um vetor
+
+sort.list(lista, dec=F) -> retorna uma lista com os ids dos números, do menor para o maior
+
+unique(lista) -> retorna uma lista um valor de cada
+
+colMeans(matrix) -> retorna a média das colunas
+
+runif(min, max, n) -> produz uma lista de n elementos gerados aleatóriamente por uma distribuição uniforme
